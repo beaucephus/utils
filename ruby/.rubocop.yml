@@ -2,7 +2,10 @@ Metrics/LineLength:
   Max: 120
 
 Metrics/MethodLength:
-  Max: 30
+  Enabled: false
+  
+Metrics/BlockLength:
+  Enabled: false
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
